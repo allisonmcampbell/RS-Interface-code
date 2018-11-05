@@ -1,7 +1,27 @@
-The data for the metabolomics case study are not included, though the file 'cassgam.stan' contains Stan code to implement the model.
+onlinemeth.pdf: 
+Details of the method. 
+Includes details of the models in the main text.
 
-The script 'alonscript.R' contains the code for the gene expression case study.
+compare_methods_sim.R:
+Simulation study code.
+R script for the simulation study.
 
-Stan code for the grouped predictor case study (simulation study) is in the file 'simcasshered.stan'
+simcasshered.stan:
+Grouped predictor code.
+Stan code for the model used in the simulation study.
 
-'compare_methods_sim.R' implements the simulation study
+cassgam.stan:
+GAM code.
+Stan code for the model used in the metabolomics study.
+
+cass_logistic.stan:
+Gene case study code.
+Stan code for the model used in the Alon case study.
+
+alon_script.R:
+Gene case study code.
+R script for the gene expresion case study.
+
+LinearInteractionsMixing.R:
+Code to run the linear model with interactions from the
+Online Methods section.
